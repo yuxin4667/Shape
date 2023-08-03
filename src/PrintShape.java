@@ -73,30 +73,30 @@ public class PrintShape {
 		
 		while(f==1)
 		{
-			System.out.print("1.¦L¥X§Îª¬ 2.Â÷¶}: ");
+			System.out.print("1.å°å‡ºå½¢ç‹€ 2.é›¢é–‹: ");
 			f=sc.nextInt();
 			if(f==2)
 			{
 				System.out.print("Bye!");
 				break;
 			}
-			System.out.print("¿ï¾Ü§Îª¬(X¡B*¡BV): ");
+			System.out.print("é¸æ“‡å½¢ç‹€(Xã€*ã€V): ");
 			shape=sc.next();
 			while(shape.compareTo("X")!=0 && shape.compareTo("*")!=0 && shape.compareTo("V")!=0)
 			{
-				System.out.print("¿é¤J¿ù»~!¿ï¾Ü§Îª¬(X¡B*¡BV): ");
+				System.out.print("è¼¸å…¥éŒ¯èª¤!é¸æ“‡å½¢ç‹€(Xã€*ã€V): ");
 				shape=sc.next();
 			}
 			
-			System.out.print("¿é¤Jn¼h(n¬°©_¼Æ): ");
+			System.out.print("è¼¸å…¥nå±¤(nç‚ºå¥‡æ•¸): ");
 			n=sc.nextInt();
 			while(n<=0 || n%2==0)
 			{
-				System.out.print("¿é¤J¿ù»~!¿é¤Jn¼h(n¬°©_¼Æ): ");
+				System.out.print("è¼¸å…¥éŒ¯èª¤!è¼¸å…¥nå±¤(nç‚ºå¥‡æ•¸): ");
 				n=sc.nextInt();
 			}
 			
-			System.out.print("¿é¤J¦r¤¸: ");
+			System.out.print("è¼¸å…¥å­—å…ƒ: ");
 			ch=sc.next();
 			
 			if(shape.compareTo("X")==0)
